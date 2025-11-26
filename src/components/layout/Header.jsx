@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <motion.header 
-      className="bg-gradient-to-b from-primary to-primary/90 shadow-sm fixed w-full z-10"
+      className="bg-gradient-to-b from-primary to-primary/90 shadow-sm fixed w-full z-50 backdrop-blur-sm"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
