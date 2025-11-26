@@ -32,9 +32,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-primary/95 to-primary px-4 py-8 overflow-y-auto">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-primary/95 to-primary px-6 sm:px-4 py-8 overflow-y-auto">
       <motion.div 
-        className="max-w-md w-full space-y-6 p-6 md:p-8 bg-white dark:bg-gray-800 rounded-lg shadow-xl my-auto"
+        className="max-w-md w-full space-y-6 p-6 sm:p-8 bg-white dark:bg-gray-800 rounded-lg shadow-xl my-auto mx-4 sm:mx-auto"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}

@@ -83,8 +83,8 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary/95 to-primary flex flex-col justify-center py-6 sm:px-6 lg:px-8">
-      <div className="sm:mx-auto sm:w-full sm:max-w-md">
+    <div className="min-h-screen bg-gradient-to-b from-primary/95 to-primary flex flex-col justify-center py-6 px-6 sm:px-6 lg:px-8">
+      <div className="mx-4 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="flex flex-col items-center">
           <Logo size="lg" />
           <h2 className="text-white font-poppins font-bold text-2xl mt-1">HabitVault</h2>
@@ -100,8 +100,8 @@ const LoginPage = () => {
         </p>
       </div>
 
-      <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-6 px-4 shadow-xl rounded-lg sm:px-10">
+      <div className="mt-6 mx-4 sm:mx-auto sm:w-full sm:max-w-md">
+        <div className="bg-white py-6 px-6 shadow-xl rounded-lg sm:px-10">
           {loginError && (
             <div className="rounded-md bg-red-50 p-4 mb-4">
               <div className="flex">

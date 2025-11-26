@@ -95,9 +95,9 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary/95 to-primary flex flex-col justify-center py-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-b from-primary/95 to-primary flex flex-col justify-center py-6 px-6 sm:px-6 lg:px-8">
       <motion.div 
-        className="sm:mx-auto sm:w-full sm:max-w-md"
+        className="sm:mx-auto sm:w-full sm:max-w-md mx-4"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -132,13 +132,13 @@ const SignupPage = () => {
       </motion.div>
 
       <motion.div 
-        className="mt-4 sm:mx-auto sm:w-full sm:max-w-md"
+        className="mt-4 sm:mx-auto sm:w-full sm:max-w-md mx-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.3 }}
       >
         <motion.div 
-          className="bg-white py-5 px-4 shadow-xl rounded-lg sm:px-10"
+          className="bg-white py-6 px-6 shadow-xl rounded-lg sm:px-10"
           whileHover={{ boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" }}
           transition={{ duration: 0.3 }}
         >
